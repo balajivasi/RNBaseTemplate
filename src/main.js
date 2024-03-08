@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 const Main = () => {
     const { t } = useTranslation();
-    const name = useSelector(state => state.profile.firstName)
+    const name = useSelector(state => state.profile.firstName);
     return (
         <View className="mt-28">
             <Text className="text-green-500"> {t('hello')} {name}</Text>

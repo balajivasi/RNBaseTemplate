@@ -8,7 +8,7 @@ const Main = () => {
     const name = useSelector(state => state.profile.firstName);
     return (
         <View className="mt-28">
-            <Text className="text-green-500"> {t('hello')} {name}</Text>
+            <Text className="text-txt"> {t('hello')} {name}</Text>
         </View>
     )
 }
